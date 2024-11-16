@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Foundation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            background-color:  rgba(214,31,23,255);
+            color: white;
+            padding: 30px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1500px;
+        }
+
+        .logo {
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 4px;
+        }
+
+        .nav-links a:hover {
+            background-color: #bb2525;}
+
+        .main {
+            background-image: url(https://stanfordbloodcenter.org/wp-content/uploads/2024/03/special-donations-banner.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(74, 74, 74);
+            padding: 10px;
+        }
+
+        .main-content h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .button{
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #c0392b;
+        }
+
+        .submain {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 10px;
+            display: grid;
+            gap: 20px;
+        }
+
+        .card {
+            text-align: center;
+            padding: 30px;
+            background-color: #d54545ee;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #2f4f70;
+            margin: 20px;
+        }
+
+        .card p {
+            color: #353030;
+            line-height: 30px
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            padding: 30px 10px;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: auto auto;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Hope Foundation</div>
+            <div class="nav-links">
+                <a href="Project.html">Home</a>
+                <a href=About.html>About</a>
+                <a href=donation.html target="_blank">Donate</a>
+                <a href=Programs.html>Programs</a>
+                <a href="Contact.html" target="_blank">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="main-content">
+            <h1><u>Making a Difference Together</u></h1>
+            <p><b>Join us in our mission to create positive change and build a better future for all.</b></p>
+            <a href="donation.html"><button class="button">Donate Now</button></a>
+        </div>
+    </section>
+
+    <section class="submain">
+        <div class="card">
+            <h3>Our Mission</h3>
+            <p><b>We strive to empower communities through sustainable development and education initiatives.</b></p>
+        </div>
+        <div class="card">
+            <h3>Get Involved</h3>
+            <p><b>Discover meaningful ways to contribute and make a lasting impact in your community.</b></p>
+        </div>
+        <div class="card">
+            <h3>Our Programs</h3>
+            <p><b>Explore our diverse range of programs designed to address critical social challenges.</b></p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Hope Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - NGO Name</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: antiquewhite;
+    }
+    header {
+            background-color:  rgba(214,31,23,255);
+            color: white;
+            padding: 30px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1500px;
+        }
+
+        .logo {
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 30px;
+            border-radius: 4px;
+        }
+
+        .nav-links a:hover {
+            background-color: #bb2525;}
+
+    .header1 {
+      background-color: #bb2525;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin-left: 450px ;
+      padding: 20px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .contact-item {
+      padding: 30px;
+      background-color: wheat;
+      border-radius: 5px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    .contact-item h3 {
+      margin-top: 0;
+    }
+
+    .contact-item p {
+      margin-bottom: 0;
+    }
+
+    .contact-form {
+      background-color: wheat;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 520px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .contact-form button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #555;
+    }
+      
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Hope Foundation</div>
+      <div class="nav-links">
+        <a href="Project.html" target="_blank">Home</a>
+          <a href=About.html target="_blank">About</a>
+          <a href=donation.html target="_blank">Donate</a>
+          <a href=Programmes.html>Programmes</a>
+          <a href="Contact.html">Contact</a>
+      </div>
+  </nav>
+  </header>
+  <div class="header1">
+    <h1>Contact Us</h1>
+  </div>
+
+  <div class="container">
+    <div class="contact-info">
+      <div class="contact-item">
+        <h3>Address</h3>
+        <p>J J Road, Byculla East, Mumbai</p>
+      </div>
+      <div class="contact-item">
+        <h3>Phone</h3>
+        <p>9218742069 <br> Or <BR>8894256822</BR>
+        </p>
+      </div>
+      <div class="contact-item">
+        <h3>Email</h3>
+        <p>HopeFoundation@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Valid Email">
+
+        <p style="margin-top: 10px;">Do You want to become a volunteer?</p>
+
+        <select style="margin-bottom: 20px;">
+          <option value="">Yes</option>
+          <option value="">No :[</option>
+      </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Enter Your Message"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

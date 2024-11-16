@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <style>
+            
+        .header1 {
+            background: linear-gradient(100deg, rgba(214,31,23,255), #bb2525);
+            color: white;
+            text-align: center;
+            padding: 30px;
+                }
+        body {
+            font-family: Arial, sans-serif;
+            height: 400px;
+            padding: 30px;
+            width: 600px;
+            background-image: url('https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=2000');
+            background-size: contain;
+            background-position: right;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #b18564;
+        }
+    
+
+        .donation-form {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 5px;
+        }
+
+        .amount-options {
+            display: inline-table;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+
+        .amount-btn {
+            padding: 10px;
+            padding-inline: 50px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .amount-btn:hover {
+            background: #f0f0f0;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .submit-btn {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .submit-btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <h1>Make a Difference Today</h1>
+        <p>Your donation helps us create positive change in communities worldwide</p>
+    </div>
+    <form class="donation-form">
+        <div class="form-group">
+            <label>Select Amount</label>
+            <div class="amount-options">
+                <button type="button" class="amount-btn">₹100</button>
+                <button type="button" class="amount-btn">₹500</button>
+                <button type="button" class="amount-btn">₹1000</button>
+                <button type="button" class="amount-btn">₹1500</button>
+            </div>
+            <input type="number" placeholder="Other amount">
+        </div>
+
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" required placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" required placeholder="Enter Your Phone Number">
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" required placeholder="Enter Your Email">
+        </div>
+
+        <div class="form-group">
+            <label>Frequency</label>
+            <select>
+                <option value="one-time">One-time</option>
+                <option value="monthly">Monthly</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Credit Card Number</label>
+            <input type="number" required placeholder="Enter Card Number">
+
+        <div class="form-group">
+            <label>Expiration Date</label>
+            <input type="number" required placeholder="Enter Expiration Date"> 
+
+        <div class="form-group">
+                <label>CVV</label>
+                <input type="number" required placeholder="Enter CVV">    
+
+        <button type="submit" class="submit-btn">Donate Now</button>
+    </form>
+</body>
+</html>
